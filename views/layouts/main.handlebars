@@ -4,36 +4,40 @@
     <title>Charles Jude Prestia</title>
     <link rel="icon" type="image/png" href="/assets/images/alien.png">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/icons.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/main2.css">
     <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Poiret+One|Teko" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
     <script src="https://use.fontawesome.com/a61d82420f.js"></script>
     <script src="assets/javascript/main.js"></script>
   </head>
-  <header>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7 col-xs-12" id="nameDiv">
-          <a href="/" id="name">Charles Jude Prestia</a>
+
+  <body>
+    <div class="row">
+
+      <div class="col s12 m3" id="sideNav">
+        <div class="row" id="myPicRow">
+          <img id="myPic" src="assets/images/FormalWare3.jpg">
+          <p id="name">Charles Jude Prestia</p>
+          <p id="webDev">Full-stack Web Developer</p>
         </div>
-        <div class="col-md-5 col-xs-12" id="navDiv">
-          <ul id="sitePages">
-            <li><a href="/tech" id="navBarAbout"></a></li>
-            <li><a href="/portfolio" id="navBarPortfolio">Portfolio</a></li>
-            <li><a href="mailto:UnbelieverJude@gmail.com">Contact</a></li>
+        <div class="row">
+          <ul id="sideNavOpts">
+            <li id="navAbout"><a href="/about">About</a></li>
+            <li id="navPortfolio"><a href="/portfolio2">Portfolio</a></li>
+            <li id="navInterests"><a href="/interests">Interests</a></li>
           </ul>
         </div>
       </div>
-    </div>
-  </header>
 
-  <body>
-    {{{ body }}}
+      <div class="col s12 m9"> 
+        {{{ body }}}
+      </div>
+ 
+    </div>
   </body>
 
   <footer>
@@ -49,7 +53,7 @@
 </html>
 
 
-<<!-- Contact Modal
+<!-- Contact Modal
 
 -- As the 'Contact' nav li element --
 <li><a id="navBarContact" type="button" data-toggle="modal" data-target="#contactModal">Contact</a></li>
@@ -85,4 +89,4 @@
       </div>
     </div>
   </div>
-</div> -->>
+</div> -->
